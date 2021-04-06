@@ -1,0 +1,11 @@
+Date: 15/11/2016
+
+Previous Version: Working model of cylindrical target composed of alternating layers of scintillator and deuterated plastic.
+
+Current Version: In-progress model of cylindrical target, with scorers per layer of plastic. 
+
+Added Classes:
+
+	- Stepping Action: To count the energy deposited per layer of scintillator and plastic. Based on B4d.
+	- Event Action: To store the energy deposited in each layer over the entire event (1 input particle). Must include energy and angle of incident particle. Based on B4d.
+	- Run Action: To output the histograms of energy deposited throughout the target for each angle. Based on B4d.

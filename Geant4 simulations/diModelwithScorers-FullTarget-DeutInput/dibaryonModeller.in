@@ -1,0 +1,7 @@
+# Macro file for dibaryonModeller test
+#
+/run/initialize
+#
+/control/verbose 2
+#
+/run/beamOn 10000
